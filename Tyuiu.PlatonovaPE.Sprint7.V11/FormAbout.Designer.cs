@@ -27,36 +27,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBoxInformation_MSM = new TextBox();
-            buttonClose_MSM = new Button();
+            textBoxInformation_PPE = new TextBox();
+            buttonClose_PPE = new Button();
             SuspendLayout();
             // 
-            // textBoxInformation_MSM
+            // textBoxInformation_PPE
             // 
-            textBoxInformation_MSM.Location = new Point(12, 12);
-            textBoxInformation_MSM.Multiline = true;
-            textBoxInformation_MSM.Name = "textBoxInformation_MSM";
-            textBoxInformation_MSM.ReadOnly = true;
-            textBoxInformation_MSM.Size = new Size(230, 226);
-            textBoxInformation_MSM.TabIndex = 0;
+            textBoxInformation_PPE.Location = new Point(12, 12);
+            textBoxInformation_PPE.Multiline = true;
+            textBoxInformation_PPE.Name = "textBoxInformation_PPE";
+            textBoxInformation_PPE.ReadOnly = true;
+            textBoxInformation_PPE.Size = new Size(230, 226);
+            textBoxInformation_PPE.TabIndex = 0;
             // 
-            // buttonClose_MSM
+            // buttonClose_PPE
             // 
-            buttonClose_MSM.Location = new Point(167, 244);
-            buttonClose_MSM.Name = "buttonClose_MSM";
-            buttonClose_MSM.Size = new Size(75, 26);
-            buttonClose_MSM.TabIndex = 1;
-            buttonClose_MSM.Text = "Ок";
-            buttonClose_MSM.UseVisualStyleBackColor = true;
-            buttonClose_MSM.Click += buttonClose_Click;
+            buttonClose_PPE.Location = new Point(167, 244);
+            buttonClose_PPE.Name = "buttonClose_PPE";
+            buttonClose_PPE.Size = new Size(75, 26);
+            buttonClose_PPE.TabIndex = 1;
+            buttonClose_PPE.Text = "Ок";
+            buttonClose_PPE.UseVisualStyleBackColor = true;
+            buttonClose_PPE.Click += buttonClose_Click;
             // 
             // FormAbout
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(263, 286);
-            Controls.Add(buttonClose_MSM);
-            Controls.Add(textBoxInformation_MSM);
+            Controls.Add(buttonClose_PPE);
+            Controls.Add(textBoxInformation_PPE);
             Font = new Font("Segoe UI", 10F);
             MaximizeBox = false;
             MinimizeBox = false;
@@ -69,7 +69,7 @@
 
         #endregion
 
-        private TextBox textBoxInformation_MSM;
-        private Button buttonClose_MSM;
+        private TextBox textBoxInformation_PPE;
+        private Button buttonClose_PPE;
     }
 }

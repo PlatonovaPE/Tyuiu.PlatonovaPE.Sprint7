@@ -27,38 +27,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tabControlText_MSM = new TabControl();
+            tabControlText_PPE = new TabControl();
             UpLeft = new TabPage();
-            textBoxUpLeft_MSM = new TextBox();
+            textBoxUpLeft_PPE = new TextBox();
             UpRight = new TabPage();
-            textBoxUpRight_MSM = new TextBox();
+            textBoxUpRight_PPE = new TextBox();
             Down = new TabPage();
-            textBoxDown_MSM = new TextBox();
+            textBoxDown_PPE = new TextBox();
             Centre = new TabPage();
-            textBoxCentre_MSM = new TextBox();
-            buttonClose_MSM = new Button();
-            tabControlText_MSM.SuspendLayout();
+            textBoxCentre_PPE = new TextBox();
+            buttonClose_PPE = new Button();
+            tabControlText_PPE.SuspendLayout();
             UpLeft.SuspendLayout();
             UpRight.SuspendLayout();
             Down.SuspendLayout();
             Centre.SuspendLayout();
             SuspendLayout();
             // 
-            // tabControlText_MSM
+            // tabControlText_PPE
             // 
-            tabControlText_MSM.Controls.Add(UpLeft);
-            tabControlText_MSM.Controls.Add(UpRight);
-            tabControlText_MSM.Controls.Add(Down);
-            tabControlText_MSM.Controls.Add(Centre);
-            tabControlText_MSM.Location = new Point(12, 12);
-            tabControlText_MSM.Name = "tabControlText_MSM";
-            tabControlText_MSM.SelectedIndex = 0;
-            tabControlText_MSM.Size = new Size(398, 309);
-            tabControlText_MSM.TabIndex = 0;
+            tabControlText_PPE.Controls.Add(UpLeft);
+            tabControlText_PPE.Controls.Add(UpRight);
+            tabControlText_PPE.Controls.Add(Down);
+            tabControlText_PPE.Controls.Add(Centre);
+            tabControlText_PPE.Location = new Point(12, 12);
+            tabControlText_PPE.Name = "tabControlText_PPE";
+            tabControlText_PPE.SelectedIndex = 0;
+            tabControlText_PPE.Size = new Size(398, 309);
+            tabControlText_PPE.TabIndex = 0;
             // 
             // UpLeft
             // 
-            UpLeft.Controls.Add(textBoxUpLeft_MSM);
+            UpLeft.Controls.Add(textBoxUpLeft_PPE);
             UpLeft.Location = new Point(4, 32);
             UpLeft.Name = "UpLeft";
             UpLeft.Padding = new Padding(3);
@@ -67,17 +67,17 @@
             UpLeft.Text = "Верхний левый угол";
             UpLeft.UseVisualStyleBackColor = true;
             // 
-            // textBoxUpLeft_MSM
+            // textBoxUpLeft_PPE
             // 
-            textBoxUpLeft_MSM.Location = new Point(6, 6);
-            textBoxUpLeft_MSM.Multiline = true;
-            textBoxUpLeft_MSM.Name = "textBoxUpLeft_MSM";
-            textBoxUpLeft_MSM.Size = new Size(378, 267);
-            textBoxUpLeft_MSM.TabIndex = 0;
+            textBoxUpLeft_PPE.Location = new Point(6, 6);
+            textBoxUpLeft_PPE.Multiline = true;
+            textBoxUpLeft_PPE.Name = "textBoxUpLeft_PPE";
+            textBoxUpLeft_PPE.Size = new Size(378, 267);
+            textBoxUpLeft_PPE.TabIndex = 0;
             // 
             // UpRight
             // 
-            UpRight.Controls.Add(textBoxUpRight_MSM);
+            UpRight.Controls.Add(textBoxUpRight_PPE);
             UpRight.Location = new Point(4, 29);
             UpRight.Name = "UpRight";
             UpRight.Padding = new Padding(3);
@@ -86,17 +86,17 @@
             UpRight.Text = "Верхний правый угол";
             UpRight.UseVisualStyleBackColor = true;
             // 
-            // textBoxUpRight_MSM
+            // textBoxUpRight_PPE
             // 
-            textBoxUpRight_MSM.Location = new Point(6, 6);
-            textBoxUpRight_MSM.Multiline = true;
-            textBoxUpRight_MSM.Name = "textBoxUpRight_MSM";
-            textBoxUpRight_MSM.Size = new Size(378, 267);
-            textBoxUpRight_MSM.TabIndex = 0;
+            textBoxUpRight_PPE.Location = new Point(6, 6);
+            textBoxUpRight_PPE.Multiline = true;
+            textBoxUpRight_PPE.Name = "textBoxUpRight_PPE";
+            textBoxUpRight_PPE.Size = new Size(378, 267);
+            textBoxUpRight_PPE.TabIndex = 0;
             // 
             // Down
             // 
-            Down.Controls.Add(textBoxDown_MSM);
+            Down.Controls.Add(textBoxDown_PPE);
             Down.Location = new Point(4, 29);
             Down.Name = "Down";
             Down.Size = new Size(390, 276);
@@ -104,17 +104,17 @@
             Down.Text = "Низ";
             Down.UseVisualStyleBackColor = true;
             // 
-            // textBoxDown_MSM
+            // textBoxDown_PPE
             // 
-            textBoxDown_MSM.Location = new Point(6, 6);
-            textBoxDown_MSM.Multiline = true;
-            textBoxDown_MSM.Name = "textBoxDown_MSM";
-            textBoxDown_MSM.Size = new Size(378, 267);
-            textBoxDown_MSM.TabIndex = 0;
+            textBoxDown_PPE.Location = new Point(6, 6);
+            textBoxDown_PPE.Multiline = true;
+            textBoxDown_PPE.Name = "textBoxDown_PPE";
+            textBoxDown_PPE.Size = new Size(378, 267);
+            textBoxDown_PPE.TabIndex = 0;
             // 
             // Centre
             // 
-            Centre.Controls.Add(textBoxCentre_MSM);
+            Centre.Controls.Add(textBoxCentre_PPE);
             Centre.Location = new Point(4, 29);
             Centre.Name = "Centre";
             Centre.Size = new Size(390, 276);
@@ -122,39 +122,39 @@
             Centre.Text = "Центр";
             Centre.UseVisualStyleBackColor = true;
             // 
-            // textBoxCentre_MSM
+            // textBoxCentre_PPE
             // 
-            textBoxCentre_MSM.Location = new Point(6, 6);
-            textBoxCentre_MSM.Multiline = true;
-            textBoxCentre_MSM.Name = "textBoxCentre_MSM";
-            textBoxCentre_MSM.Size = new Size(378, 267);
-            textBoxCentre_MSM.TabIndex = 0;
-            textBoxCentre_MSM.Text = "В центре расположена таблица.\r\nПри нажании на столбец начинается сортировка по столбцу.\r\nПри нажатии на строку и нажатии кнопки \"DEL\", строка удаляется.";
+            textBoxCentre_PPE.Location = new Point(6, 6);
+            textBoxCentre_PPE.Multiline = true;
+            textBoxCentre_PPE.Name = "textBoxCentre_PPE";
+            textBoxCentre_PPE.Size = new Size(378, 267);
+            textBoxCentre_PPE.TabIndex = 0;
+            textBoxCentre_PPE.Text = "В центре расположена таблица.\r\nПри нажании на столбец начинается сортировка по столбцу.\r\nПри нажатии на строку и нажатии кнопки \"DEL\", строка удаляется.";
             // 
-            // buttonClose_MSM
+            // buttonClose_PPE
             // 
-            buttonClose_MSM.Location = new Point(335, 327);
-            buttonClose_MSM.Name = "buttonClose_MSM";
-            buttonClose_MSM.Size = new Size(75, 26);
-            buttonClose_MSM.TabIndex = 1;
-            buttonClose_MSM.Text = "Ок";
-            buttonClose_MSM.UseVisualStyleBackColor = true;
-            buttonClose_MSM.Click += buttonClose_MSM_Click;
+            buttonClose_PPE.Location = new Point(335, 327);
+            buttonClose_PPE.Name = "buttonClose_PPE";
+            buttonClose_PPE.Size = new Size(75, 26);
+            buttonClose_PPE.TabIndex = 1;
+            buttonClose_PPE.Text = "Ок";
+            buttonClose_PPE.UseVisualStyleBackColor = true;
+            buttonClose_PPE.Click += buttonClose_PPE_Click;
             // 
             // FormManual
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(973, 526);
-            Controls.Add(buttonClose_MSM);
-            Controls.Add(tabControlText_MSM);
+            Controls.Add(buttonClose_PPE);
+            Controls.Add(tabControlText_PPE);
             Font = new Font("Segoe UI", 10F);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormManual";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormManual";
-            tabControlText_MSM.ResumeLayout(false);
+            tabControlText_PPE.ResumeLayout(false);
             UpLeft.ResumeLayout(false);
             UpLeft.PerformLayout();
             UpRight.ResumeLayout(false);
@@ -168,15 +168,15 @@
 
         #endregion
 
-        private TabControl tabControlText_MSM;
+        private TabControl tabControlText_PPE;
         private TabPage UpLeft;
         private TabPage UpRight;
         private TabPage Down;
         private TabPage Centre;
-        private TextBox textBoxUpLeft_MSM;
-        private TextBox textBoxUpRight_MSM;
-        private TextBox textBoxDown_MSM;
-        private TextBox textBoxCentre_MSM;
-        private Button buttonClose_MSM;
+        private TextBox textBoxUpLeft_PPE;
+        private TextBox textBoxUpRight_PPE;
+        private TextBox textBoxDown_PPE;
+        private TextBox textBoxCentre_PPE;
+        private Button buttonClose_PPE;
     }
 }

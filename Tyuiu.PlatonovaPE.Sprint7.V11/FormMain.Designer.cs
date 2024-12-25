@@ -31,19 +31,19 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            panelMenu_MSM = new Panel();
-            groupBoxSearch_MSM = new GroupBox();
-            textBoxSearch_MSM = new TextBox();
-            buttonSearch_MSM = new Button();
-            buttonMenu_MSM = new Button();
-            buttonResetTable_MSM = new Button();
-            buttonSaveAnotherFile_MSM = new Button();
-            buttonLoadTableClose_MSM = new Button();
-            buttonLoadTableSave_MSM = new Button();
-            buttonLoadTable_MSM = new Button();
-            buttonSaveTableInFile_MSM = new Button();
-            panelTable_MSM = new Panel();
-            dataGridViewTable_MSM = new DataGridView();
+            panelMenu_PPE = new Panel();
+            groupBoxSearch_PPE = new GroupBox();
+            textBoxSearch_PPE = new TextBox();
+            buttonSearch_PPE = new Button();
+            buttonMenu_PPE = new Button();
+            buttonResetTable_PPE = new Button();
+            buttonSaveAnotherFile_PPE = new Button();
+            buttonLoadTableClose_PPE = new Button();
+            buttonLoadTableSave_PPE = new Button();
+            buttonLoadTable_PPE = new Button();
+            buttonSaveTableInFile_PPE = new Button();
+            panelTable_PPE = new Panel();
+            dataGridViewTable_PPE = new DataGridView();
             LastName = new DataGridViewTextBoxColumn();
             FirstName = new DataGridViewTextBoxColumn();
             Patronymic = new DataGridViewTextBoxColumn();
@@ -55,196 +55,196 @@
             Salary = new DataGridViewTextBoxColumn();
             Education = new DataGridViewTextBoxColumn();
             NumberRow = new DataGridViewTextBoxColumn();
-            openFileDialog_MSM = new OpenFileDialog();
-            panelStatistics_MSM = new Panel();
-            groupBoxFilter_MSM = new GroupBox();
-            checkedListBoxFilter_MSM = new CheckedListBox();
-            buttonResetFilter_MSM = new Button();
-            buttonUseFilter_MSM = new Button();
-            chartGraphic_MSM = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            dataGridViewFunction_MSM = new DataGridView();
+            openFileDialog_PPE = new OpenFileDialog();
+            panelStatistics_PPE = new Panel();
+            groupBoxFilter_PPE = new GroupBox();
+            checkedListBoxFilter_PPE = new CheckedListBox();
+            buttonResetFilter_PPE = new Button();
+            buttonUseFilter_PPE = new Button();
+            chartGraphic_PPE = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            dataGridViewFunction_PPE = new DataGridView();
             Function = new DataGridViewTextBoxColumn();
             Result = new DataGridViewTextBoxColumn();
-            comboBoxIndexStaticColumn_MSM = new ComboBox();
-            comboBoxIndexFilterColumn_MSM = new ComboBox();
-            saveFileDialog_MSM = new SaveFileDialog();
-            toolTip_MSM = new ToolTip(components);
-            buttonMain_MSM = new Button();
-            buttonManual_MSM = new Button();
-            buttonAboutProgram_MSM = new Button();
-            textBoxInform_MSM = new TextBox();
-            panelMenu_MSM.SuspendLayout();
-            groupBoxSearch_MSM.SuspendLayout();
-            panelTable_MSM.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewTable_MSM).BeginInit();
-            panelStatistics_MSM.SuspendLayout();
-            groupBoxFilter_MSM.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)chartGraphic_MSM).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewFunction_MSM).BeginInit();
+            comboBoxIndexStaticColumn_PPE = new ComboBox();
+            comboBoxIndexFilterColumn_PPE = new ComboBox();
+            saveFileDialog_PPE = new SaveFileDialog();
+            toolTip_PPE = new ToolTip(components);
+            buttonMain_PPE = new Button();
+            buttonManual_PPE = new Button();
+            buttonAboutProgram_PPE = new Button();
+            textBoxInform_PPE = new TextBox();
+            panelMenu_PPE.SuspendLayout();
+            groupBoxSearch_PPE.SuspendLayout();
+            panelTable_PPE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTable_PPE).BeginInit();
+            panelStatistics_PPE.SuspendLayout();
+            groupBoxFilter_PPE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)chartGraphic_PPE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFunction_PPE).BeginInit();
             SuspendLayout();
             // 
-            // panelMenu_MSM
+            // panelMenu_PPE
             // 
-            panelMenu_MSM.Controls.Add(groupBoxSearch_MSM);
-            panelMenu_MSM.Controls.Add(buttonMenu_MSM);
-            panelMenu_MSM.Controls.Add(buttonResetTable_MSM);
-            panelMenu_MSM.Controls.Add(buttonSaveAnotherFile_MSM);
-            panelMenu_MSM.Controls.Add(buttonLoadTableClose_MSM);
-            panelMenu_MSM.Controls.Add(buttonLoadTableSave_MSM);
-            panelMenu_MSM.Controls.Add(buttonLoadTable_MSM);
-            panelMenu_MSM.Controls.Add(buttonSaveTableInFile_MSM);
-            panelMenu_MSM.Dock = DockStyle.Top;
-            panelMenu_MSM.Location = new Point(0, 0);
-            panelMenu_MSM.Name = "panelMenu_MSM";
-            panelMenu_MSM.Size = new Size(1282, 119);
-            panelMenu_MSM.TabIndex = 0;
-            panelMenu_MSM.Visible = false;
+            panelMenu_PPE.Controls.Add(groupBoxSearch_PPE);
+            panelMenu_PPE.Controls.Add(buttonMenu_PPE);
+            panelMenu_PPE.Controls.Add(buttonResetTable_PPE);
+            panelMenu_PPE.Controls.Add(buttonSaveAnotherFile_PPE);
+            panelMenu_PPE.Controls.Add(buttonLoadTableClose_PPE);
+            panelMenu_PPE.Controls.Add(buttonLoadTableSave_PPE);
+            panelMenu_PPE.Controls.Add(buttonLoadTable_PPE);
+            panelMenu_PPE.Controls.Add(buttonSaveTableInFile_PPE);
+            panelMenu_PPE.Dock = DockStyle.Top;
+            panelMenu_PPE.Location = new Point(0, 0);
+            panelMenu_PPE.Name = "panelMenu_PPE";
+            panelMenu_PPE.Size = new Size(1282, 119);
+            panelMenu_PPE.TabIndex = 0;
+            panelMenu_PPE.Visible = false;
             // 
-            // groupBoxSearch_MSM
+            // groupBoxSearch_PPE
             // 
-            groupBoxSearch_MSM.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            groupBoxSearch_MSM.Controls.Add(textBoxSearch_MSM);
-            groupBoxSearch_MSM.Controls.Add(buttonSearch_MSM);
-            groupBoxSearch_MSM.Font = new Font("Segoe UI", 10F);
-            groupBoxSearch_MSM.Location = new Point(1123, 0);
-            groupBoxSearch_MSM.Name = "groupBoxSearch_MSM";
-            groupBoxSearch_MSM.Size = new Size(153, 53);
-            groupBoxSearch_MSM.TabIndex = 11;
-            groupBoxSearch_MSM.TabStop = false;
-            groupBoxSearch_MSM.Text = "Поиск";
+            groupBoxSearch_PPE.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            groupBoxSearch_PPE.Controls.Add(textBoxSearch_PPE);
+            groupBoxSearch_PPE.Controls.Add(buttonSearch_PPE);
+            groupBoxSearch_PPE.Font = new Font("Segoe UI", 10F);
+            groupBoxSearch_PPE.Location = new Point(1123, 0);
+            groupBoxSearch_PPE.Name = "groupBoxSearch_PPE";
+            groupBoxSearch_PPE.Size = new Size(153, 53);
+            groupBoxSearch_PPE.TabIndex = 11;
+            groupBoxSearch_PPE.TabStop = false;
+            groupBoxSearch_PPE.Text = "Поиск";
             // 
-            // textBoxSearch_MSM
+            // textBoxSearch_PPE
             // 
-            textBoxSearch_MSM.Location = new Point(6, 22);
-            textBoxSearch_MSM.Name = "textBoxSearch_MSM";
-            textBoxSearch_MSM.Size = new Size(117, 30);
-            textBoxSearch_MSM.TabIndex = 9;
+            textBoxSearch_PPE.Location = new Point(6, 22);
+            textBoxSearch_PPE.Name = "textBoxSearch_PPE";
+            textBoxSearch_PPE.Size = new Size(117, 30);
+            textBoxSearch_PPE.TabIndex = 9;
             // 
-            // buttonSearch_MSM
+            // buttonSearch_PPE
             // 
-            buttonSearch_MSM.BackColor = SystemColors.Window;
-            buttonSearch_MSM.FlatStyle = FlatStyle.Flat;
-            buttonSearch_MSM.Location = new Point(122, 22);
-            buttonSearch_MSM.Name = "buttonSearch_MSM";
-            buttonSearch_MSM.Size = new Size(25, 25);
-            buttonSearch_MSM.TabIndex = 10;
-            toolTip_MSM.SetToolTip(buttonSearch_MSM, "Поиск по заданному слову");
-            buttonSearch_MSM.UseVisualStyleBackColor = false;
-            buttonSearch_MSM.Click += buttonSearch_MSM_Click;
+            buttonSearch_PPE.BackColor = SystemColors.Window;
+            buttonSearch_PPE.FlatStyle = FlatStyle.Flat;
+            buttonSearch_PPE.Location = new Point(122, 22);
+            buttonSearch_PPE.Name = "buttonSearch_PPE";
+            buttonSearch_PPE.Size = new Size(25, 25);
+            buttonSearch_PPE.TabIndex = 10;
+            toolTip_PPE.SetToolTip(buttonSearch_PPE, "Поиск по заданному слову");
+            buttonSearch_PPE.UseVisualStyleBackColor = false;
+            buttonSearch_PPE.Click += buttonSearch_PPE_Click;
             // 
-            // buttonMenu_MSM
+            // buttonMenu_PPE
             // 
-            buttonMenu_MSM.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            buttonMenu_MSM.Font = new Font("Segoe UI", 10F);
-            buttonMenu_MSM.Location = new Point(1211, 59);
-            buttonMenu_MSM.Name = "buttonMenu_MSM";
-            buttonMenu_MSM.Size = new Size(65, 29);
-            buttonMenu_MSM.TabIndex = 8;
-            buttonMenu_MSM.Text = "Меню";
-            toolTip_MSM.SetToolTip(buttonMenu_MSM, "Выйти в меню");
-            buttonMenu_MSM.UseVisualStyleBackColor = true;
-            buttonMenu_MSM.Click += buttonMenu_MSM_Click;
+            buttonMenu_PPE.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            buttonMenu_PPE.Font = new Font("Segoe UI", 10F);
+            buttonMenu_PPE.Location = new Point(1211, 59);
+            buttonMenu_PPE.Name = "buttonMenu_PPE";
+            buttonMenu_PPE.Size = new Size(65, 29);
+            buttonMenu_PPE.TabIndex = 8;
+            buttonMenu_PPE.Text = "Меню";
+            toolTip_PPE.SetToolTip(buttonMenu_PPE, "Выйти в меню");
+            buttonMenu_PPE.UseVisualStyleBackColor = true;
+            buttonMenu_PPE.Click += buttonMenu_PPE_Click;
             // 
-            // buttonResetTable_MSM
+            // buttonResetTable_PPE
             // 
-            buttonResetTable_MSM.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            buttonResetTable_MSM.Font = new Font("Segoe UI", 10F);
-            buttonResetTable_MSM.Location = new Point(1123, 59);
-            buttonResetTable_MSM.Name = "buttonResetTable_MSM";
-            buttonResetTable_MSM.Size = new Size(87, 29);
-            buttonResetTable_MSM.TabIndex = 19;
-            buttonResetTable_MSM.Text = "Сбросить";
-            toolTip_MSM.SetToolTip(buttonResetTable_MSM, "Вернуть основную таблицу без изменений");
-            buttonResetTable_MSM.UseVisualStyleBackColor = true;
-            buttonResetTable_MSM.Click += buttonResetTable_MSM_Click;
+            buttonResetTable_PPE.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            buttonResetTable_PPE.Font = new Font("Segoe UI", 10F);
+            buttonResetTable_PPE.Location = new Point(1123, 59);
+            buttonResetTable_PPE.Name = "buttonResetTable_PPE";
+            buttonResetTable_PPE.Size = new Size(87, 29);
+            buttonResetTable_PPE.TabIndex = 19;
+            buttonResetTable_PPE.Text = "Сбросить";
+            toolTip_PPE.SetToolTip(buttonResetTable_PPE, "Вернуть основную таблицу без изменений");
+            buttonResetTable_PPE.UseVisualStyleBackColor = true;
+            buttonResetTable_PPE.Click += buttonResetTable_PPE_Click;
             // 
-            // buttonSaveAnotherFile_MSM
+            // buttonSaveAnotherFile_PPE
             // 
-            buttonSaveAnotherFile_MSM.Font = new Font("Segoe UI", 10F);
-            buttonSaveAnotherFile_MSM.Location = new Point(12, 82);
-            buttonSaveAnotherFile_MSM.Name = "buttonSaveAnotherFile_MSM";
-            buttonSaveAnotherFile_MSM.Size = new Size(113, 29);
-            buttonSaveAnotherFile_MSM.TabIndex = 5;
-            buttonSaveAnotherFile_MSM.Text = "Сохранить как";
-            toolTip_MSM.SetToolTip(buttonSaveAnotherFile_MSM, "Сохранить основную таблицу в отдельный файл");
-            buttonSaveAnotherFile_MSM.UseVisualStyleBackColor = true;
-            buttonSaveAnotherFile_MSM.Click += buttonSaveAnotherFile_MSM_Click;
+            buttonSaveAnotherFile_PPE.Font = new Font("Segoe UI", 10F);
+            buttonSaveAnotherFile_PPE.Location = new Point(12, 82);
+            buttonSaveAnotherFile_PPE.Name = "buttonSaveAnotherFile_PPE";
+            buttonSaveAnotherFile_PPE.Size = new Size(113, 29);
+            buttonSaveAnotherFile_PPE.TabIndex = 5;
+            buttonSaveAnotherFile_PPE.Text = "Сохранить как";
+            toolTip_PPE.SetToolTip(buttonSaveAnotherFile_PPE, "Сохранить основную таблицу в отдельный файл");
+            buttonSaveAnotherFile_PPE.UseVisualStyleBackColor = true;
+            buttonSaveAnotherFile_PPE.Click += buttonSaveAnotherFile_PPE_Click;
             // 
-            // buttonLoadTableClose_MSM
+            // buttonLoadTableClose_PPE
             // 
-            buttonLoadTableClose_MSM.Font = new Font("Segoe UI", 10F);
-            buttonLoadTableClose_MSM.Location = new Point(113, 12);
-            buttonLoadTableClose_MSM.Name = "buttonLoadTableClose_MSM";
-            buttonLoadTableClose_MSM.Size = new Size(150, 29);
-            buttonLoadTableClose_MSM.TabIndex = 2;
-            buttonLoadTableClose_MSM.Text = "Закрыть таблицу";
-            toolTip_MSM.SetToolTip(buttonLoadTableClose_MSM, "Закрыть загруженную таблицу");
-            buttonLoadTableClose_MSM.UseVisualStyleBackColor = true;
-            buttonLoadTableClose_MSM.Visible = false;
-            buttonLoadTableClose_MSM.Click += buttonLoadTableClose_MSM_Click;
+            buttonLoadTableClose_PPE.Font = new Font("Segoe UI", 10F);
+            buttonLoadTableClose_PPE.Location = new Point(113, 12);
+            buttonLoadTableClose_PPE.Name = "buttonLoadTableClose_PPE";
+            buttonLoadTableClose_PPE.Size = new Size(150, 29);
+            buttonLoadTableClose_PPE.TabIndex = 2;
+            buttonLoadTableClose_PPE.Text = "Закрыть таблицу";
+            toolTip_PPE.SetToolTip(buttonLoadTableClose_PPE, "Закрыть загруженную таблицу");
+            buttonLoadTableClose_PPE.UseVisualStyleBackColor = true;
+            buttonLoadTableClose_PPE.Visible = false;
+            buttonLoadTableClose_PPE.Click += buttonLoadTableClose_PPE_Click;
             // 
-            // buttonLoadTableSave_MSM
+            // buttonLoadTableSave_PPE
             // 
-            buttonLoadTableSave_MSM.Font = new Font("Segoe UI", 10F);
-            buttonLoadTableSave_MSM.Location = new Point(269, 12);
-            buttonLoadTableSave_MSM.Name = "buttonLoadTableSave_MSM";
-            buttonLoadTableSave_MSM.Size = new Size(160, 29);
-            buttonLoadTableSave_MSM.TabIndex = 2;
-            buttonLoadTableSave_MSM.Text = "Сохранить таблицу";
-            toolTip_MSM.SetToolTip(buttonLoadTableSave_MSM, "Переместить таблицу в низ основной таблицы");
-            buttonLoadTableSave_MSM.UseVisualStyleBackColor = true;
-            buttonLoadTableSave_MSM.Visible = false;
-            buttonLoadTableSave_MSM.Click += buttonLoadTableSave_MSM_Click;
+            buttonLoadTableSave_PPE.Font = new Font("Segoe UI", 10F);
+            buttonLoadTableSave_PPE.Location = new Point(269, 12);
+            buttonLoadTableSave_PPE.Name = "buttonLoadTableSave_PPE";
+            buttonLoadTableSave_PPE.Size = new Size(160, 29);
+            buttonLoadTableSave_PPE.TabIndex = 2;
+            buttonLoadTableSave_PPE.Text = "Сохранить таблицу";
+            toolTip_PPE.SetToolTip(buttonLoadTableSave_PPE, "Переместить таблицу в низ основной таблицы");
+            buttonLoadTableSave_PPE.UseVisualStyleBackColor = true;
+            buttonLoadTableSave_PPE.Visible = false;
+            buttonLoadTableSave_PPE.Click += buttonLoadTableSave_PPE_Click;
             // 
-            // buttonLoadTable_MSM
+            // buttonLoadTable_PPE
             // 
-            buttonLoadTable_MSM.Font = new Font("Segoe UI", 10F);
-            buttonLoadTable_MSM.Location = new Point(12, 12);
-            buttonLoadTable_MSM.Name = "buttonLoadTable_MSM";
-            buttonLoadTable_MSM.Size = new Size(95, 29);
-            buttonLoadTable_MSM.TabIndex = 1;
-            buttonLoadTable_MSM.Text = "Загрузить таблицу";
-            toolTip_MSM.SetToolTip(buttonLoadTable_MSM, "Загрузка CSV файла");
-            buttonLoadTable_MSM.UseVisualStyleBackColor = true;
-            buttonLoadTable_MSM.Click += buttonLoadTable_MSM_Click;
+            buttonLoadTable_PPE.Font = new Font("Segoe UI", 10F);
+            buttonLoadTable_PPE.Location = new Point(12, 12);
+            buttonLoadTable_PPE.Name = "buttonLoadTable_PPE";
+            buttonLoadTable_PPE.Size = new Size(95, 29);
+            buttonLoadTable_PPE.TabIndex = 1;
+            buttonLoadTable_PPE.Text = "Загрузить таблицу";
+            toolTip_PPE.SetToolTip(buttonLoadTable_PPE, "Загрузка CSV файла");
+            buttonLoadTable_PPE.UseVisualStyleBackColor = true;
+            buttonLoadTable_PPE.Click += buttonLoadTable_PPE_Click;
             // 
-            // buttonSaveTableInFile_MSM
+            // buttonSaveTableInFile_PPE
             // 
-            buttonSaveTableInFile_MSM.FlatStyle = FlatStyle.System;
-            buttonSaveTableInFile_MSM.Font = new Font("Segoe UI", 10F);
-            buttonSaveTableInFile_MSM.Location = new Point(12, 47);
-            buttonSaveTableInFile_MSM.Name = "buttonSaveTableInFile_MSM";
-            buttonSaveTableInFile_MSM.Size = new Size(95, 29);
-            buttonSaveTableInFile_MSM.TabIndex = 0;
-            buttonSaveTableInFile_MSM.Text = "Сохранить";
-            toolTip_MSM.SetToolTip(buttonSaveTableInFile_MSM, "Сохранить основную таблицу");
-            buttonSaveTableInFile_MSM.UseVisualStyleBackColor = true;
-            buttonSaveTableInFile_MSM.Click += buttonSaveFileInTable_MSM_Click;
+            buttonSaveTableInFile_PPE.FlatStyle = FlatStyle.System;
+            buttonSaveTableInFile_PPE.Font = new Font("Segoe UI", 10F);
+            buttonSaveTableInFile_PPE.Location = new Point(12, 47);
+            buttonSaveTableInFile_PPE.Name = "buttonSaveTableInFile_PPE";
+            buttonSaveTableInFile_PPE.Size = new Size(95, 29);
+            buttonSaveTableInFile_PPE.TabIndex = 0;
+            buttonSaveTableInFile_PPE.Text = "Сохранить";
+            toolTip_PPE.SetToolTip(buttonSaveTableInFile_PPE, "Сохранить основную таблицу");
+            buttonSaveTableInFile_PPE.UseVisualStyleBackColor = true;
+            buttonSaveTableInFile_PPE.Click += buttonSaveFileInTable_PPE_Click;
             // 
-            // panelTable_MSM
+            // panelTable_PPE
             // 
-            panelTable_MSM.Controls.Add(dataGridViewTable_MSM);
-            panelTable_MSM.Dock = DockStyle.Fill;
-            panelTable_MSM.Location = new Point(0, 119);
-            panelTable_MSM.Name = "panelTable_MSM";
-            panelTable_MSM.Size = new Size(1282, 310);
-            panelTable_MSM.TabIndex = 0;
-            panelTable_MSM.Visible = false;
+            panelTable_PPE.Controls.Add(dataGridViewTable_PPE);
+            panelTable_PPE.Dock = DockStyle.Fill;
+            panelTable_PPE.Location = new Point(0, 119);
+            panelTable_PPE.Name = "panelTable_PPE";
+            panelTable_PPE.Size = new Size(1282, 310);
+            panelTable_PPE.TabIndex = 0;
+            panelTable_PPE.Visible = false;
             // 
-            // dataGridViewTable_MSM
+            // dataGridViewTable_PPE
             // 
-            dataGridViewTable_MSM.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewTable_MSM.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTable_MSM.Columns.AddRange(new DataGridViewColumn[] { LastName, FirstName, Patronymic, HomeAddress, Telephone, DateOfBirth, Position, DateOfEnrollment, Salary, Education, NumberRow });
-            dataGridViewTable_MSM.Dock = DockStyle.Fill;
-            dataGridViewTable_MSM.Location = new Point(0, 0);
-            dataGridViewTable_MSM.Name = "dataGridViewTable_MSM";
-            dataGridViewTable_MSM.RowHeadersWidth = 51;
-            dataGridViewTable_MSM.Size = new Size(1282, 310);
-            dataGridViewTable_MSM.TabIndex = 0;
-            dataGridViewTable_MSM.CellValueChanged += dataGridViewTable_MSM_CellValueChanged;
-            dataGridViewTable_MSM.RowsAdded += dataGridViewTable_MSM_RowsAdded;
-            dataGridViewTable_MSM.UserDeletedRow += dataGridViewTable_MSM_UserDeletedRow;
+            dataGridViewTable_PPE.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewTable_PPE.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewTable_PPE.Columns.AddRange(new DataGridViewColumn[] { LastName, FirstName, Patronymic, HomeAddress, Telephone, DateOfBirth, Position, DateOfEnrollment, Salary, Education, NumberRow });
+            dataGridViewTable_PPE.Dock = DockStyle.Fill;
+            dataGridViewTable_PPE.Location = new Point(0, 0);
+            dataGridViewTable_PPE.Name = "dataGridViewTable_PPE";
+            dataGridViewTable_PPE.RowHeadersWidth = 51;
+            dataGridViewTable_PPE.Size = new Size(1282, 310);
+            dataGridViewTable_PPE.TabIndex = 0;
+            dataGridViewTable_PPE.CellValueChanged += dataGridViewTable_PPE_CellValueChanged;
+            dataGridViewTable_PPE.RowsAdded += dataGridViewTable_PPE_RowsAdded;
+            dataGridViewTable_PPE.UserDeletedRow += dataGridViewTable_PPE_UserDeletedRow;
             // 
             // LastName
             // 
@@ -322,113 +322,113 @@
             NumberRow.Visible = false;
             NumberRow.Width = 6;
             // 
-            // panelStatistics_MSM
+            // panelStatistics_PPE
             // 
-            panelStatistics_MSM.Controls.Add(groupBoxFilter_MSM);
-            panelStatistics_MSM.Controls.Add(chartGraphic_MSM);
-            panelStatistics_MSM.Controls.Add(dataGridViewFunction_MSM);
-            panelStatistics_MSM.Controls.Add(comboBoxIndexStaticColumn_MSM);
-            panelStatistics_MSM.Controls.Add(comboBoxIndexFilterColumn_MSM);
-            panelStatistics_MSM.Dock = DockStyle.Bottom;
-            panelStatistics_MSM.Location = new Point(0, 429);
-            panelStatistics_MSM.Name = "panelStatistics_MSM";
-            panelStatistics_MSM.Size = new Size(1282, 165);
-            panelStatistics_MSM.TabIndex = 1;
-            panelStatistics_MSM.Visible = false;
+            panelStatistics_PPE.Controls.Add(groupBoxFilter_PPE);
+            panelStatistics_PPE.Controls.Add(chartGraphic_PPE);
+            panelStatistics_PPE.Controls.Add(dataGridViewFunction_PPE);
+            panelStatistics_PPE.Controls.Add(comboBoxIndexStaticColumn_PPE);
+            panelStatistics_PPE.Controls.Add(comboBoxIndexFilterColumn_PPE);
+            panelStatistics_PPE.Dock = DockStyle.Bottom;
+            panelStatistics_PPE.Location = new Point(0, 429);
+            panelStatistics_PPE.Name = "panelStatistics_PPE";
+            panelStatistics_PPE.Size = new Size(1282, 165);
+            panelStatistics_PPE.TabIndex = 1;
+            panelStatistics_PPE.Visible = false;
             // 
-            // groupBoxFilter_MSM
+            // groupBoxFilter_PPE
             // 
-            groupBoxFilter_MSM.Controls.Add(checkedListBoxFilter_MSM);
-            groupBoxFilter_MSM.Controls.Add(buttonResetFilter_MSM);
-            groupBoxFilter_MSM.Controls.Add(buttonUseFilter_MSM);
-            groupBoxFilter_MSM.Font = new Font("Segoe UI", 10F);
-            groupBoxFilter_MSM.Location = new Point(954, 1);
-            groupBoxFilter_MSM.Name = "groupBoxFilter_MSM";
-            groupBoxFilter_MSM.Size = new Size(200, 164);
-            groupBoxFilter_MSM.TabIndex = 21;
-            groupBoxFilter_MSM.TabStop = false;
-            groupBoxFilter_MSM.Text = "Фильтер";
-            groupBoxFilter_MSM.Visible = false;
+            groupBoxFilter_PPE.Controls.Add(checkedListBoxFilter_PPE);
+            groupBoxFilter_PPE.Controls.Add(buttonResetFilter_PPE);
+            groupBoxFilter_PPE.Controls.Add(buttonUseFilter_PPE);
+            groupBoxFilter_PPE.Font = new Font("Segoe UI", 10F);
+            groupBoxFilter_PPE.Location = new Point(954, 1);
+            groupBoxFilter_PPE.Name = "groupBoxFilter_PPE";
+            groupBoxFilter_PPE.Size = new Size(200, 164);
+            groupBoxFilter_PPE.TabIndex = 21;
+            groupBoxFilter_PPE.TabStop = false;
+            groupBoxFilter_PPE.Text = "Фильтер";
+            groupBoxFilter_PPE.Visible = false;
             // 
-            // checkedListBoxFilter_MSM
+            // checkedListBoxFilter_PPE
             // 
-            checkedListBoxFilter_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            checkedListBoxFilter_MSM.Font = new Font("Segoe UI", 10F);
-            checkedListBoxFilter_MSM.Location = new Point(9, 24);
-            checkedListBoxFilter_MSM.Name = "checkedListBoxFilter_MSM";
-            checkedListBoxFilter_MSM.Size = new Size(185, 104);
-            checkedListBoxFilter_MSM.TabIndex = 13;
-            toolTip_MSM.SetToolTip(checkedListBoxFilter_MSM, "Настройка фильтра");
+            checkedListBoxFilter_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            checkedListBoxFilter_PPE.Font = new Font("Segoe UI", 10F);
+            checkedListBoxFilter_PPE.Location = new Point(9, 24);
+            checkedListBoxFilter_PPE.Name = "checkedListBoxFilter_PPE";
+            checkedListBoxFilter_PPE.Size = new Size(185, 104);
+            checkedListBoxFilter_PPE.TabIndex = 13;
+            toolTip_PPE.SetToolTip(checkedListBoxFilter_PPE, "Настройка фильтра");
             // 
-            // buttonResetFilter_MSM
+            // buttonResetFilter_PPE
             // 
-            buttonResetFilter_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonResetFilter_MSM.Font = new Font("Segoe UI", 10F);
-            buttonResetFilter_MSM.Location = new Point(9, 128);
-            buttonResetFilter_MSM.Name = "buttonResetFilter_MSM";
-            buttonResetFilter_MSM.Size = new Size(80, 29);
-            buttonResetFilter_MSM.TabIndex = 18;
-            buttonResetFilter_MSM.Text = "Сбросить";
-            toolTip_MSM.SetToolTip(buttonResetFilter_MSM, "Сбросить фильтр");
-            buttonResetFilter_MSM.UseVisualStyleBackColor = true;
-            buttonResetFilter_MSM.Click += buttonResetFilter_MSM_Click;
+            buttonResetFilter_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonResetFilter_PPE.Font = new Font("Segoe UI", 10F);
+            buttonResetFilter_PPE.Location = new Point(9, 128);
+            buttonResetFilter_PPE.Name = "buttonResetFilter_PPE";
+            buttonResetFilter_PPE.Size = new Size(80, 29);
+            buttonResetFilter_PPE.TabIndex = 18;
+            buttonResetFilter_PPE.Text = "Сбросить";
+            toolTip_PPE.SetToolTip(buttonResetFilter_PPE, "Сбросить фильтр");
+            buttonResetFilter_PPE.UseVisualStyleBackColor = true;
+            buttonResetFilter_PPE.Click += buttonResetFilter_PPE_Click;
             // 
-            // buttonUseFilter_MSM
+            // buttonUseFilter_PPE
             // 
-            buttonUseFilter_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonUseFilter_MSM.Font = new Font("Segoe UI", 10F);
-            buttonUseFilter_MSM.Location = new Point(95, 128);
-            buttonUseFilter_MSM.Name = "buttonUseFilter_MSM";
-            buttonUseFilter_MSM.Size = new Size(99, 29);
-            buttonUseFilter_MSM.TabIndex = 18;
-            buttonUseFilter_MSM.Text = "Применить";
-            toolTip_MSM.SetToolTip(buttonUseFilter_MSM, "Применить фильтр");
-            buttonUseFilter_MSM.UseVisualStyleBackColor = true;
-            buttonUseFilter_MSM.Click += buttonUseFilter_MSM_Click;
+            buttonUseFilter_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonUseFilter_PPE.Font = new Font("Segoe UI", 10F);
+            buttonUseFilter_PPE.Location = new Point(95, 128);
+            buttonUseFilter_PPE.Name = "buttonUseFilter_PPE";
+            buttonUseFilter_PPE.Size = new Size(99, 29);
+            buttonUseFilter_PPE.TabIndex = 18;
+            buttonUseFilter_PPE.Text = "Применить";
+            toolTip_PPE.SetToolTip(buttonUseFilter_PPE, "Применить фильтр");
+            buttonUseFilter_PPE.UseVisualStyleBackColor = true;
+            buttonUseFilter_PPE.Click += buttonUseFilter_PPE_Click;
             // 
-            // chartGraphic_MSM
+            // chartGraphic_PPE
             // 
-            chartGraphic_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            chartGraphic_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             chartArea1.Name = "ChartArea1";
-            chartGraphic_MSM.ChartAreas.Add(chartArea1);
+            chartGraphic_PPE.ChartAreas.Add(chartArea1);
             legend1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             legend1.IsTextAutoFit = false;
             legend1.Name = "Legend1";
             legend1.TitleFont = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            chartGraphic_MSM.Legends.Add(legend1);
-            chartGraphic_MSM.Location = new Point(401, 0);
-            chartGraphic_MSM.Name = "chartGraphic_MSM";
+            chartGraphic_PPE.Legends.Add(legend1);
+            chartGraphic_PPE.Location = new Point(401, 0);
+            chartGraphic_PPE.Name = "chartGraphic_PPE";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             series1.IsVisibleInLegend = false;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            chartGraphic_MSM.Series.Add(series1);
-            chartGraphic_MSM.Size = new Size(433, 159);
-            chartGraphic_MSM.TabIndex = 20;
-            chartGraphic_MSM.Text = "chart1";
-            toolTip_MSM.SetToolTip(chartGraphic_MSM, "График по выбранному столбцу");
-            chartGraphic_MSM.Visible = false;
+            chartGraphic_PPE.Series.Add(series1);
+            chartGraphic_PPE.Size = new Size(433, 159);
+            chartGraphic_PPE.TabIndex = 20;
+            chartGraphic_PPE.Text = "chart1";
+            toolTip_PPE.SetToolTip(chartGraphic_PPE, "График по выбранному столбцу");
+            chartGraphic_PPE.Visible = false;
             // 
-            // dataGridViewFunction_MSM
+            // dataGridViewFunction_PPE
             // 
-            dataGridViewFunction_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            dataGridViewFunction_MSM.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridViewFunction_MSM.BackgroundColor = SystemColors.Control;
-            dataGridViewFunction_MSM.BorderStyle = BorderStyle.None;
-            dataGridViewFunction_MSM.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewFunction_MSM.Columns.AddRange(new DataGridViewColumn[] { Function, Result });
-            dataGridViewFunction_MSM.Location = new Point(840, 0);
-            dataGridViewFunction_MSM.Name = "dataGridViewFunction_MSM";
-            dataGridViewFunction_MSM.RowHeadersVisible = false;
-            dataGridViewFunction_MSM.RowHeadersWidth = 51;
-            dataGridViewFunction_MSM.RowTemplate.ReadOnly = true;
-            dataGridViewFunction_MSM.ScrollBars = ScrollBars.None;
-            dataGridViewFunction_MSM.Size = new Size(240, 188);
-            dataGridViewFunction_MSM.TabIndex = 17;
-            toolTip_MSM.SetToolTip(dataGridViewFunction_MSM, "Статистика выбранного столбца");
-            dataGridViewFunction_MSM.Visible = false;
+            dataGridViewFunction_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            dataGridViewFunction_PPE.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridViewFunction_PPE.BackgroundColor = SystemColors.Control;
+            dataGridViewFunction_PPE.BorderStyle = BorderStyle.None;
+            dataGridViewFunction_PPE.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewFunction_PPE.Columns.AddRange(new DataGridViewColumn[] { Function, Result });
+            dataGridViewFunction_PPE.Location = new Point(840, 0);
+            dataGridViewFunction_PPE.Name = "dataGridViewFunction_PPE";
+            dataGridViewFunction_PPE.RowHeadersVisible = false;
+            dataGridViewFunction_PPE.RowHeadersWidth = 51;
+            dataGridViewFunction_PPE.RowTemplate.ReadOnly = true;
+            dataGridViewFunction_PPE.ScrollBars = ScrollBars.None;
+            dataGridViewFunction_PPE.Size = new Size(240, 188);
+            dataGridViewFunction_PPE.TabIndex = 17;
+            toolTip_PPE.SetToolTip(dataGridViewFunction_PPE, "Статистика выбранного столбца");
+            dataGridViewFunction_PPE.Visible = false;
             // 
             // Function
             // 
@@ -446,96 +446,96 @@
             Result.ReadOnly = true;
             Result.Width = 125;
             // 
-            // comboBoxIndexStaticColumn_MSM
+            // comboBoxIndexStaticColumn_PPE
             // 
-            comboBoxIndexStaticColumn_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            comboBoxIndexStaticColumn_MSM.Font = new Font("Segoe UI", 10F);
-            comboBoxIndexStaticColumn_MSM.FormattingEnabled = true;
-            comboBoxIndexStaticColumn_MSM.Items.AddRange(new object[] { "Фамилия", "Имя", "Отчество", "Домашний адрес", "Телефон", "День рождения", "Должность", "Дата зачисления", "Оклад", "Образование" });
-            comboBoxIndexStaticColumn_MSM.Location = new Point(12, 89);
-            comboBoxIndexStaticColumn_MSM.Name = "comboBoxIndexStaticColumn_MSM";
-            comboBoxIndexStaticColumn_MSM.Size = new Size(121, 31);
-            comboBoxIndexStaticColumn_MSM.TabIndex = 15;
-            toolTip_MSM.SetToolTip(comboBoxIndexStaticColumn_MSM, "Выбор столбца для статистики");
-            comboBoxIndexStaticColumn_MSM.TextChanged += comboBoxIndexStaticColumn_MSM_TextChanged;
-            comboBoxIndexStaticColumn_MSM.KeyPress += comboBoxIndexFilterColumn_MSM_KeyPress;
+            comboBoxIndexStaticColumn_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            comboBoxIndexStaticColumn_PPE.Font = new Font("Segoe UI", 10F);
+            comboBoxIndexStaticColumn_PPE.FormattingEnabled = true;
+            comboBoxIndexStaticColumn_PPE.Items.AddRange(new object[] { "Фамилия", "Имя", "Отчество", "Домашний адрес", "Телефон", "День рождения", "Должность", "Дата зачисления", "Оклад", "Образование" });
+            comboBoxIndexStaticColumn_PPE.Location = new Point(12, 89);
+            comboBoxIndexStaticColumn_PPE.Name = "comboBoxIndexStaticColumn_PPE";
+            comboBoxIndexStaticColumn_PPE.Size = new Size(121, 31);
+            comboBoxIndexStaticColumn_PPE.TabIndex = 15;
+            toolTip_PPE.SetToolTip(comboBoxIndexStaticColumn_PPE, "Выбор столбца для статистики");
+            comboBoxIndexStaticColumn_PPE.TextChanged += comboBoxIndexStaticColumn_PPE_TextChanged;
+            comboBoxIndexStaticColumn_PPE.KeyPress += comboBoxIndexFilterColumn_PPE_KeyPress;
             // 
-            // comboBoxIndexFilterColumn_MSM
+            // comboBoxIndexFilterColumn_PPE
             // 
-            comboBoxIndexFilterColumn_MSM.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            comboBoxIndexFilterColumn_MSM.Font = new Font("Segoe UI", 10F);
-            comboBoxIndexFilterColumn_MSM.FormattingEnabled = true;
-            comboBoxIndexFilterColumn_MSM.Items.AddRange(new object[] { "Фамилия", "Имя", "Отчество", "Домашний адрес", "Телефон", "День рождения", "Должность", "Дата зачисления", "Оклад", "Образование" });
-            comboBoxIndexFilterColumn_MSM.Location = new Point(12, 120);
-            comboBoxIndexFilterColumn_MSM.Name = "comboBoxIndexFilterColumn_MSM";
-            comboBoxIndexFilterColumn_MSM.Size = new Size(121, 31);
-            comboBoxIndexFilterColumn_MSM.TabIndex = 15;
-            toolTip_MSM.SetToolTip(comboBoxIndexFilterColumn_MSM, "Выбор столбца для фильтра");
-            comboBoxIndexFilterColumn_MSM.TextChanged += comboBoxIndexFilterColumn_MSM_TextChanged;
-            comboBoxIndexFilterColumn_MSM.KeyPress += comboBoxIndexFilterColumn_MSM_KeyPress;
+            comboBoxIndexFilterColumn_PPE.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            comboBoxIndexFilterColumn_PPE.Font = new Font("Segoe UI", 10F);
+            comboBoxIndexFilterColumn_PPE.FormattingEnabled = true;
+            comboBoxIndexFilterColumn_PPE.Items.AddRange(new object[] { "Фамилия", "Имя", "Отчество", "Домашний адрес", "Телефон", "День рождения", "Должность", "Дата зачисления", "Оклад", "Образование" });
+            comboBoxIndexFilterColumn_PPE.Location = new Point(12, 120);
+            comboBoxIndexFilterColumn_PPE.Name = "comboBoxIndexFilterColumn_PPE";
+            comboBoxIndexFilterColumn_PPE.Size = new Size(121, 31);
+            comboBoxIndexFilterColumn_PPE.TabIndex = 15;
+            toolTip_PPE.SetToolTip(comboBoxIndexFilterColumn_PPE, "Выбор столбца для фильтра");
+            comboBoxIndexFilterColumn_PPE.TextChanged += comboBoxIndexFilterColumn_PPE_TextChanged;
+            comboBoxIndexFilterColumn_PPE.KeyPress += comboBoxIndexFilterColumn_PPE_KeyPress;
             // 
-            // buttonMain_MSM
+            // buttonMain_PPE
             // 
-            buttonMain_MSM.Font = new Font("Segoe UI", 16F);
-            buttonMain_MSM.Location = new Point(37, 109);
-            buttonMain_MSM.Name = "buttonMain_MSM";
-            buttonMain_MSM.Size = new Size(210, 70);
-            buttonMain_MSM.TabIndex = 2;
-            buttonMain_MSM.Text = "Таблица";
-            toolTip_MSM.SetToolTip(buttonMain_MSM, "Открывает рабочее пространство");
-            buttonMain_MSM.UseVisualStyleBackColor = true;
-            buttonMain_MSM.Click += buttonMain_MSM_Click;
+            buttonMain_PPE.Font = new Font("Segoe UI", 16F);
+            buttonMain_PPE.Location = new Point(37, 109);
+            buttonMain_PPE.Name = "buttonMain_PPE";
+            buttonMain_PPE.Size = new Size(210, 70);
+            buttonMain_PPE.TabIndex = 2;
+            buttonMain_PPE.Text = "Таблица";
+            toolTip_PPE.SetToolTip(buttonMain_PPE, "Открывает рабочее пространство");
+            buttonMain_PPE.UseVisualStyleBackColor = true;
+            buttonMain_PPE.Click += buttonMain_PPE_Click;
             // 
-            // buttonManual_MSM
+            // buttonManual_PPE
             // 
-            buttonManual_MSM.Font = new Font("Segoe UI", 16F);
-            buttonManual_MSM.Location = new Point(37, 185);
-            buttonManual_MSM.Name = "buttonManual_MSM";
-            buttonManual_MSM.Size = new Size(210, 70);
-            buttonManual_MSM.TabIndex = 2;
-            buttonManual_MSM.Text = "Руководство";
-            toolTip_MSM.SetToolTip(buttonManual_MSM, "Открывает руководство по приложению");
-            buttonManual_MSM.UseVisualStyleBackColor = true;
-            buttonManual_MSM.Click += buttonManual_MSM_Click;
+            buttonManual_PPE.Font = new Font("Segoe UI", 16F);
+            buttonManual_PPE.Location = new Point(37, 185);
+            buttonManual_PPE.Name = "buttonManual_PPE";
+            buttonManual_PPE.Size = new Size(210, 70);
+            buttonManual_PPE.TabIndex = 2;
+            buttonManual_PPE.Text = "Руководство";
+            toolTip_PPE.SetToolTip(buttonManual_PPE, "Открывает руководство по приложению");
+            buttonManual_PPE.UseVisualStyleBackColor = true;
+            buttonManual_PPE.Click += buttonManual_PPE_Click;
             // 
-            // buttonAboutProgram_MSM
+            // buttonAboutProgram_PPE
             // 
-            buttonAboutProgram_MSM.Font = new Font("Segoe UI", 16F);
-            buttonAboutProgram_MSM.Location = new Point(37, 261);
-            buttonAboutProgram_MSM.Name = "buttonAboutProgram_MSM";
-            buttonAboutProgram_MSM.Size = new Size(210, 70);
-            buttonAboutProgram_MSM.TabIndex = 2;
-            buttonAboutProgram_MSM.Text = "О приложении";
-            toolTip_MSM.SetToolTip(buttonAboutProgram_MSM, "Об авторе приложения");
-            buttonAboutProgram_MSM.UseVisualStyleBackColor = true;
-            buttonAboutProgram_MSM.Click += buttonAboutProgram_MSM_Click;
+            buttonAboutProgram_PPE.Font = new Font("Segoe UI", 16F);
+            buttonAboutProgram_PPE.Location = new Point(37, 261);
+            buttonAboutProgram_PPE.Name = "buttonAboutProgram_PPE";
+            buttonAboutProgram_PPE.Size = new Size(210, 70);
+            buttonAboutProgram_PPE.TabIndex = 2;
+            buttonAboutProgram_PPE.Text = "О приложении";
+            toolTip_PPE.SetToolTip(buttonAboutProgram_PPE, "Об авторе приложения");
+            buttonAboutProgram_PPE.UseVisualStyleBackColor = true;
+            buttonAboutProgram_PPE.Click += buttonAboutProgram_PPE_Click;
             // 
-            // textBoxInform_MSM
+            // textBoxInform_PPE
             // 
-            textBoxInform_MSM.BackColor = SystemColors.Control;
-            textBoxInform_MSM.BorderStyle = BorderStyle.None;
-            textBoxInform_MSM.Font = new Font("Times New Roman", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBoxInform_MSM.Location = new Point(37, 46);
-            textBoxInform_MSM.Multiline = true;
-            textBoxInform_MSM.Name = "textBoxInform_MSM";
-            textBoxInform_MSM.ReadOnly = true;
-            textBoxInform_MSM.Size = new Size(210, 57);
-            textBoxInform_MSM.TabIndex = 3;
-            textBoxInform_MSM.Text = "Приложение для отдела кадров";
-            textBoxInform_MSM.TextAlign = HorizontalAlignment.Center;
+            textBoxInform_PPE.BackColor = SystemColors.Control;
+            textBoxInform_PPE.BorderStyle = BorderStyle.None;
+            textBoxInform_PPE.Font = new Font("Times New Roman", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            textBoxInform_PPE.Location = new Point(37, 46);
+            textBoxInform_PPE.Multiline = true;
+            textBoxInform_PPE.Name = "textBoxInform_PPE";
+            textBoxInform_PPE.ReadOnly = true;
+            textBoxInform_PPE.Size = new Size(210, 57);
+            textBoxInform_PPE.TabIndex = 3;
+            textBoxInform_PPE.Text = "Приложение для отдела кадров";
+            textBoxInform_PPE.TextAlign = HorizontalAlignment.Center;
             // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 594);
-            Controls.Add(textBoxInform_MSM);
-            Controls.Add(buttonAboutProgram_MSM);
-            Controls.Add(buttonManual_MSM);
-            Controls.Add(buttonMain_MSM);
-            Controls.Add(panelTable_MSM);
-            Controls.Add(panelStatistics_MSM);
-            Controls.Add(panelMenu_MSM);
+            Controls.Add(textBoxInform_PPE);
+            Controls.Add(buttonAboutProgram_PPE);
+            Controls.Add(buttonManual_PPE);
+            Controls.Add(buttonMain_PPE);
+            Controls.Add(panelTable_PPE);
+            Controls.Add(panelStatistics_PPE);
+            Controls.Add(panelMenu_PPE);
             Font = new Font("Segoe UI", 10F);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
@@ -543,51 +543,51 @@
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Отдел кадров";
-            panelMenu_MSM.ResumeLayout(false);
-            groupBoxSearch_MSM.ResumeLayout(false);
-            groupBoxSearch_MSM.PerformLayout();
-            panelTable_MSM.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridViewTable_MSM).EndInit();
-            panelStatistics_MSM.ResumeLayout(false);
-            groupBoxFilter_MSM.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)chartGraphic_MSM).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewFunction_MSM).EndInit();
+            panelMenu_PPE.ResumeLayout(false);
+            groupBoxSearch_PPE.ResumeLayout(false);
+            groupBoxSearch_PPE.PerformLayout();
+            panelTable_PPE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTable_PPE).EndInit();
+            panelStatistics_PPE.ResumeLayout(false);
+            groupBoxFilter_PPE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)chartGraphic_PPE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFunction_PPE).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Panel panelMenu_MSM;
-        private Panel panelTable_MSM;
-        private DataGridView dataGridViewTable_MSM;
-        private Button buttonSaveTableInFile_MSM;
-        private Button buttonLoadTable_MSM;
-        private OpenFileDialog openFileDialog_MSM;
-        private Button buttonLoadTableClose_MSM;
-        private Button buttonLoadTableSave_MSM;
-        private Panel panelStatistics_MSM;
-        private Button buttonSaveAnotherFile_MSM;
-        private SaveFileDialog saveFileDialog_MSM;
-        private Button buttonMenu_MSM;
-        private GroupBox groupBoxSearch_MSM;
-        private TextBox textBoxSearch_MSM;
-        private Button buttonSearch_MSM;
-        private CheckedListBox checkedListBoxFilter_MSM;
-        private ComboBox comboBoxIndexFilterColumn_MSM;
-        private DataGridView dataGridViewFunction_MSM;
+        private Panel panelMenu_PPE;
+        private Panel panelTable_PPE;
+        private DataGridView dataGridViewTable_PPE;
+        private Button buttonSaveTableInFile_PPE;
+        private Button buttonLoadTable_PPE;
+        private OpenFileDialog openFileDialog_PPE;
+        private Button buttonLoadTableClose_PPE;
+        private Button buttonLoadTableSave_PPE;
+        private Panel panelStatistics_PPE;
+        private Button buttonSaveAnotherFile_PPE;
+        private SaveFileDialog saveFileDialog_PPE;
+        private Button buttonMenu_PPE;
+        private GroupBox groupBoxSearch_PPE;
+        private TextBox textBoxSearch_PPE;
+        private Button buttonSearch_PPE;
+        private CheckedListBox checkedListBoxFilter_PPE;
+        private ComboBox comboBoxIndexFilterColumn_PPE;
+        private DataGridView dataGridViewFunction_PPE;
         private DataGridViewTextBoxColumn Function;
         private DataGridViewTextBoxColumn Result;
-        private Button buttonResetFilter_MSM;
-        private Button buttonUseFilter_MSM;
-        private Button buttonResetTable_MSM;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartGraphic_MSM;
-        private ToolTip toolTip_MSM;
-        private GroupBox groupBoxFilter_MSM;
-        private Button buttonMain_MSM;
-        private Button buttonManual_MSM;
-        private Button buttonAboutProgram_MSM;
-        private TextBox textBoxInform_MSM;
+        private Button buttonResetFilter_PPE;
+        private Button buttonUseFilter_PPE;
+        private Button buttonResetTable_PPE;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartGraphic_PPE;
+        private ToolTip toolTip_PPE;
+        private GroupBox groupBoxFilter_PPE;
+        private Button buttonMain_PPE;
+        private Button buttonManual_PPE;
+        private Button buttonAboutProgram_PPE;
+        private TextBox textBoxInform_PPE;
         private DataGridViewTextBoxColumn LastName;
         private DataGridViewTextBoxColumn FirstName;
         private DataGridViewTextBoxColumn Patronymic;
@@ -599,6 +599,6 @@
         private DataGridViewTextBoxColumn Salary;
         private DataGridViewTextBoxColumn Education;
         private DataGridViewTextBoxColumn NumberRow;
-        private ComboBox comboBoxIndexStaticColumn_MSM;
+        private ComboBox comboBoxIndexStaticColumn_PPE;
     }
 }

@@ -17,7 +17,7 @@ namespace Tyuiu.PlatonovaPE.Sprint7.V11
             InitializeComponent();
         }
 
-        private void buttonClose_MSM_Click(object sender, EventArgs e)
+        private void buttonClose_PPE_Click(object sender, EventArgs e)
         {
             this.Close();
         }
