@@ -2,18 +2,28 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using Tyuiu.PlatonovaPE.Sprint7.V11.Lib;
 
-namespace Project.V11.Test
+namespace Tyuiu.PlatonovaPE.Sprint7.V11.Test
 {
     [TestClass]
     public class DataServiceTest
     {
+        DataService ds = new DataService();
+        
         [TestMethod]
-        public void TestMethod1()
+        public void CheckRowsAddedInTable()
         {
-            DataService ds = new DataService();
-            string path = @"C:\Users\parse\source\repos\Tyuiu.PlatonovaPE.Sprint7\Tyuiu.PlatonovaPE.Sprint7.V11.Lib\bin\Debug\net8.0\Сезонность сотрудников.txt";
-
-            CollectionAssert.AreEqual(new double[] { 4, 12, 14, 15, 9, 7, 5, 4, 7, 9, 10, 1 }, ds.LoadFromDataFile(path));
+            string[,] matrixTable = { { "1", "2", "3", }, { "4", "5", "6" } };
+            string[,] matrixRes = ds.RowsAddedInTable(matrixTable, 5);
+            string[,] matrixWait = { { "1", "2", "3", }, { "4", "5", "6" }, { null, null, null }, { null, null, null }, { null, null, null } };
+            CollectionAssert.AreEquivalent(matrixRes, matrixWait);
+        }
+        [TestMethod]
+        public void CheckSaveFileToPath()
+        {
+            string[,] matrixTable = { { "1", "2", "3", }, { "4", "5", "6" } };
+            string path = Path.Combine(Path.GetTempPath(), "CheckTable.csv");
+            ds.SaveFileToPath(path, matrixTable);
+            Assert.IsTrue(File.Exists(path));
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project.V11
+namespace Tyuiu.PlatonovaPE.Sprint7.V11
 {
     static class Program
     {
@@ -14,9 +14,9 @@ namespace Project.V11
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain_PPE());
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            Application.Run(new FormMain());
         }
     }
 }
